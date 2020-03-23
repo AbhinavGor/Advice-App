@@ -34,6 +34,11 @@
   height: 100vh;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+  text-emphasis: none;
+  color: antiquewhite;
+}
 
 .app{
   height: 100%;
@@ -41,7 +46,8 @@
   background-size: cover;
   background-position: center ;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
 }
@@ -97,6 +103,10 @@ button:hover span{
   animation-delay: 0.06s ;
 }
 
+.contact{
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (max-width: 768px){
   button{
     padding: 4%;
