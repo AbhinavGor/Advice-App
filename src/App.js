@@ -28,7 +28,7 @@ class App extends React.Component{
       <div className='app'>
         <div className = 'card'>
           <h1 className = 'heading'>{this.state.advice}</h1>
-          <button onClick = {this.fetchAdvice}><span>enlighten me!</span></button>
+          <button onClick = {this.fetchAdvice}><span>give me more advice!</span></button>
         </div>
         <div className = "contact">
           <h3 className = "heading"><a href = 'https://abhinavgor.netlify.com/contactus.html'>Contact Me</a></h3>
