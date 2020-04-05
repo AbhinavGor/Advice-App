@@ -31,7 +31,7 @@ class App extends React.Component{
           <button onClick = {this.fetchAdvice}><span>give me more advice!</span></button>
         </div>
         <div className = "contact">
-          <h3 className = "heading"><a href = 'https://abhinavgor.netlify.com/contactus.html'>Contact Me</a></h3>
+          <h3 className = "heading"><a href = 'https://abhinavgor.netlify.com/'>Contact Me</a></h3>
         </div>
       </div>
     );
